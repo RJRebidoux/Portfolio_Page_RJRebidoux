@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="image/icon" rel="icon" href="assets/icons/anchor.ico">
+        <link rel="stylesheet" href="style.css"> <!-- CSS -->
+        <script src="main.js"></script> <!-- JavaScript -->
+        <title>RJ Rebidoux ⛵</title>
+    </head>
+    <body>
+        <header>
+            <div class="banner">
+                <h1><a href="#">Reegan J. Rebidoux</a></h1>
+            </div>
+            <div class="shortcuts">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </header>
+        <main>
+            <div class="intro">
+                <h1>Ahoy! I'm RJ</h1>
+                <p>I'm an inspiring game developer with a fisherman's background that knows his way around the keyboard.</p>
+                <p>Currently a student at Georgian College`s campus in Barrie studying Computer Programming.</p>
+            </div>
+            <div id="about">
+                <h1>Captain's Log</h1>
+                <p>Like I said before I'm inspired game developer so I don't have much way of projects at the moment But I am more than eager to learn.</p>
+                <p>Other than programming, And as the theme may suggest my other hobbies include boating and swimming whenever I am back in the East Coast where my family is!</p>
+                <img id="myself" src="assets/images/IMG_22051.png" alt="myself">
+            </div>
+            <div id="skills">
+                <h1>My Tackle box</h1>
+                <p>Through the years, I've been able to work with a number of different coding languages with more being added each year! A few of these programs are:</p>
+                <div class="container-skills">
+                    <div><img src="assets/Icons/html.png"><p>HTML</p></div>
+                    <div><img src="assets/Icons/css-3.png"><p>CSS</p></div>
+                    <div><img src="assets/Icons/js.png"><p>JavaScript</p></div>
+                    <div><img src="assets/Icons/python.png"><p>Python</p></div>
+                    <div><img src="assets/Icons/mysql.png"><p>mySQL</p></div>
+                    <div><img src="assets/Icons/c-sharp.png"><p>C#</p></div>
+                    <div><img src="assets/Icons/php.png"><p>Php</p></div>
+                    <div><img src="assets/Icons/java.png"><p>Java</p></div>
+                    <div><img src="assets/Icons/minus.png"><p>Ardunio</p></div>
+                </div>
+            </div>
+            <div id="contact">
+                <h1>Send a Message in a Bottle</h1>
+                <p class="contact-message">Reach out to me any of my social medias if you have any questions about any projects or if you just want to grab some fish and chips!</p>
+                <form class="message">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="email@email.com" >
+                  
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" placeholder="[Subject]">
+                  
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="[Text here]"></textarea>
+                  
+                    <button id="submit" onclick="submitButton()">Send</button>
+                  </form>
+            </div>
+        </main>
+        <footer>
+            <p>Created while listening to Johnny Cash - <span id="signed">RJ Rebidoux</span></p>
+        </footer>
+    </body>
+</html>
